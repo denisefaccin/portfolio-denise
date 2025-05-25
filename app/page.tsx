@@ -8,10 +8,10 @@ export default function Home() {
     <main className="min-h-screen bg-white text-gray-800">
       <section className="relative h-[80vh] w-full flex items-center justify-center text-center">
         <Image
-          src="/5b24816d-11e1-4762-8a09-c2c27828f610.png"
+          src="/bg-image.jpg"
           alt="Capa do Portfólio - Educação Ambiental"
           fill
-          style={{ objectFit: "cover", zIndex: -1 }}
+          style={{ objectFit: "cover", zIndex: 1 }}
         />
         <div className="bg-white/80 backdrop-blur p-8 rounded-xl shadow-xl z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
